@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <title>Roxana - HR & Business Professional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Roxana</div>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h1>Roxana</h1>
+            <p> Expert in HR, Communication, Creative Design, and Human Skills</p>
+            <a href="#about" class="btn">Discover More</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p><span class="icon">&#128188;</span> I am a multi-disciplinary professional with over <strong>15 years of experience</strong> in <strong>Human Resources, Call Centers, and Support Desk Operations</strong>. My goal is to provide efficient and customer-focused solutions that improve employee engagement and operational excellence.</p>
+                <p><span class="icon">&#128222;</span> I specialize in <strong>streamlining call center and support desk workflows</strong>, managing multilingual teams (English, Romanian, Dutch), and implementing technologies that enhance communication and customer service experiences.</p>
+                <p><span class="icon">&#127912;</span> Throughout my career, I have also worked as a <strong>professional artist and designer</strong>, collaborating with <strong>XindexStudios</strong> and various indie companies, delivering visually engaging and creative projects for their brands and products.</p>
+            </div>
+            <div class="about-image">
+                <img src="Snapchat-691900251.jpg" alt="Roxana">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="skills" class="skills-section">
+        <h2>Core Competencies</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <i class="fas fa-users icon"></i>
+                <h3>HR Management & Leadership</h3>
+                <p>Comprehensive expertise in organizational development, talent acquisition, employee engagement, and leadership development programs.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-chart-line icon"></i>
+                <h3>Business Strategy & Analysis</h3>
+                <p>Proven ability to develop business strategies that drive revenue growth and operational efficiency in diverse industries.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-money-check-alt icon"></i>
+                <h3>Financial Consulting</h3>
+                <p>Expert financial planning, budgeting, and advising with a focus on maximizing profitability and securing investments.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-laptop-code icon"></i>
+                <h3>Technology & Digital Transformation</h3>
+                <p>Proficient in leveraging technology to optimize business processes, automate tasks, and enhance communication.</p>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 88%"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="experience" class="experience-section">
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="timeline-content">
+                    <h3>HR Manager - Global Support Solutions</h3>
+            <p>Managed and streamlined operations for a large international support desk team, enhancing overall efficiency and client satisfaction.</p>
+            <p><strong>Key Achievement:</strong> Implemented new workflow systems that reduced response times by 25%, while boosting employee engagement.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-item">
+                        <h3>Call Center Supervisor - ReachOut Assistance</h3>
+                        <p>Led a team of multilingual agents providing customer service across English, Romanian, and Dutch markets, ensuring top-quality support.</p>
+                        <p><strong>Key Achievement:</strong> Introduced advanced support tools and strategies, improving first-call resolution rates by 30%.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="experience-item">
+                        <h3>Professional Artist & Designer - XindexStudios</h3>
+                        <p>Created high-quality, custom artwork and graphic design projects for independent clients and small indie companies.</p>
+                        <p><strong>Key Achievement:</strong> Delivered 50+ design projects, enhancing client branding and increasing customer engagement by 15%.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <h2>Get in Touch</h2>
+        <form id="contactForm">
+            <p>If you’d like to get in touch, feel free to send me an email at:</p>
+            <a href="mailto:Yunamin279@yahoo.com" class="email-link">My Email</a>
+        </form>
+        <div class="email-illustration">
+            <img src="premium_photo-1682308354667-53cdfe770c5c.avif" alt="Email Illustration">
+        </div>
+    </section>
+    
+    <script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        // Show confirmation message instead of alert
+        alert('Thank you for contacting me, I will respond shortly!');
+    });
+    </script>
+    
+    
+    
+    
+    <footer>
+        <p>&copy; 2024 Roxana. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="mailto:" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
